@@ -10,7 +10,7 @@ const Desc = () => {
     useEffect(() => {
         const id = setInterval(() => {
             setSlideIndex((i) => (i + 1) % WHY_SLIDES.length);
-        }, 10000);
+        }, 3000);
         return () => clearInterval(id);
     }, []);
 
@@ -50,7 +50,7 @@ const Desc = () => {
                     />
                 </div>
 
-                <div className="container carousel h-75 mt-3 p-5" style={{ overflow: 'hidden' }}>
+                <div className="container carousel h-75 my-5" style={{ overflow: 'hidden' }}>
                     <div
                         className="d-flex"
                         style={{
@@ -65,7 +65,7 @@ const Desc = () => {
                                 style={{ flex: '0 0 100%' }}
                                 aria-hidden={i !== slideIndex}
                             >
-                                <p className="min-w-75 d-flex gap-3">{text}</p>
+                                <p className="min-w-75 d-flex justify-content-center gap-3 text-align-center">{text}</p>
                             </div>
                         ))}
                     </div>

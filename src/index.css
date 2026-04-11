@@ -119,3 +119,19 @@ code {
   color: #14532D;
 }
 
+.on_hover {
+  position: absolute;
+  animation-name: border-white;
+  animation-timing-function: ease-out;
+  animation-duration: .5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes border-white {
+  from {
+    border-color: black;
+  }
+  to {
+    border-color: gold;
+  }
+}

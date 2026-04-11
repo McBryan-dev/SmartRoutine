@@ -3,8 +3,10 @@ export const descParagraph = "Smart routine helps individuals to achieve a SMART
 export const WHY_SLIDES = [
     'Routines are built around your goal and timeframe so progress stays realistic and measurable.',
 
-    'The app factors in your daily schedule, so plans fit real life instead of fighting it. lorem ipsum lorem ipsum lorem ipsum',
-    
-    'You get a flexible, time-saving plan that adapts as you go—less guesswork, more consistency.',
+    'The app factors in your daily schedule, so plans fit real life instead of fighting it. They work with you and for you. `Nathan Bassey, CEO.` ',
+
+    'You get a flexible, time-saving plan that adapts as you go, therefefore, less guesswork, more consistency. `Diana Bridget, Influencer.` ',
+
+    'We are available on both Playstore and Appstore, website access is also available. `The Team.` ',
 
 ]
