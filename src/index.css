@@ -120,18 +120,26 @@ code {
 }
 
 .on_hover {
-  position: absolute;
-  animation-name: border-white;
-  animation-timing-function: ease-out;
-  animation-duration: .5s;
-  animation-fill-mode: forwards;
+  background: aqua;
+  transition-duration: .5s;
+  transition-timing-function: ease-out;
 }
 
-@keyframes border-white {
+.on_hover:hover {
+  /* animation-name: border-white; */
+  /* animation-timing-function: ease-out;
+  animation-duration: .5s;
+  animation-fill-mode: forwards; */
+  transition-duration: .3s;
+  transition-timing-function: ease-out;
+  border-color: gold !important;
+}
+
+/* @keyframes border-white {
   from {
-    border-color: black;
+    border-color: gold;
   }
   to {
     border-color: gold;
   }
-}
+} */

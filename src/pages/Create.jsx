@@ -8,8 +8,10 @@ const Create = () => {
             <NavBar />
 
             <div className='container'>
-                <div className='s'>
-                    <h1 className="fs-1">S-pecific</h1>
+                <div className='letter'>
+                    <div className='s'>
+                        <h1 className="text-color">S pecific</h1>
+                    </div>
                 </div>
             </div>
 
